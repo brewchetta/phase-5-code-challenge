@@ -17,9 +17,13 @@ Return true if it is possible to fit the stamps while following the given restri
 
 Example 1:
 
+![example image](assets/ex1.png)
+
 Input: grid = [[1,0,0,0],[1,0,0,0],[1,0,0,0],[1,0,0,0],[1,0,0,0]], stampHeight = 4, stampWidth = 3
 Output: true
 Explanation: We have two overlapping stamps (labeled 1 and 2 in the image) that are able to cover all the empty cells.
+
+![example image](assets/ex2.png)
 
 Example 2:
 
@@ -37,3 +41,5 @@ Constraints:
     1 <= m * n <= 2 * 105
     grid[r][c] is either 0 or 1.
     1 <= stampHeight, stampWidth <= 105
+
+Good luck!
